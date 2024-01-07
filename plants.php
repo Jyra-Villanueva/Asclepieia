@@ -18,6 +18,7 @@
             background-position: 0 0, 10px 10px;
             background-color: #fff; 
             padding-top: 50px;
+            padding-bottom: 100px;
         }
 
         .letter-heading {

@@ -12,15 +12,15 @@
             font-size: larger;
             font-weight: 700;
             font-family: 'Montserrat', sans-serif;
-            position: relative; /* Add relative positioning to the body */
-            margin: 0; /* Remove default margin */
-            overflow: hidden; /* Prevent horizontal scrollbar */
+            position: relative;
+            margin: 0;
+            overflow: hidden; 
         }
 
         img {
             max-width: 100%;
             height: auto;
-            margin: 0 auto; /* Center the image horizontally */
+            margin: 0 auto; 
         }
 
         .get-started-button {
@@ -30,16 +30,16 @@
             text-decoration: none;
             border-radius: 100px;
             font-size: 20px;
-            position: absolute; /* Add absolute positioning to the button */
-            top: 60%; /* Adjust the vertical position of the button */
-            left: 50%; /* Center the button horizontally */
-            transform: translate(-50%, -50%); /* Center the button precisely */
-            transition: background-color 0.3s ease; /* Add a smooth color transition */
+            position: absolute; 
+            top: 60%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            transition: background-color 0.3s ease; 
         }
 
         .get-started-button:hover {
             background-color: #E9E9E9;
-            color: #435d56; /* Change background color on hover */
+            color: #435d56; 
         }
     </style>
 </head>

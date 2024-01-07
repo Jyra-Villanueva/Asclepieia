@@ -1,0 +1,104 @@
+{
+    "Medicinal herbs": [
+        {
+            "name": "Turmeric",
+            "descrip": "Turmeric or Curcuma longa  is a flowering plant with rhizomes that are commonly used as a spice. It has bright yellow-orange flesh.",
+            "benefits": "Turmeric contains curcumin, known for its anti-inflammatory and antioxidant properties. It may help reduce inflammation, support joint health, and have potential benefits for digestive health.",
+            "side": "In high doses, turmeric may cause gastrointestinal issues. Individuals on blood-thinning medications should consult a healthcare professional before using turmeric supplements.",
+            "images": [
+                "images\/Turmeric.jpeg"
+            ],
+            "clickCount": 20,
+            "commentCount": 0,
+            "recommended": true
+        },
+        {
+            "name": "Vitex negundo",
+            "descrip": "Lagundi (scientific name: Vitex negundo) is a shrub that grows in the Philippines. It is one of the ten herbal medicines endorsed by the Philippine Department of Health as an effective herbal medicine with proven therapeutic value. Commonly known in the Ilocos region as dangla, lagundi has been clinically tested to be effective in the treatment of colds, flu, fever, bronchial asthma, chronic bronchitis, and pharyngitis. Studies have shown that Lagundi can prevent the body&#039;s production of leukotrienes, which are released during an asthma attack. Lagundi contains Chrysoplenol D, a substance with anti-histamine and muscle relaxant properties. Even in Japan, lagundi is becoming recognized as an effective herbal medicine, especially since researches have shown that it contains properties that make it an expectorant and it has been reported to function as a tonic as well. More than that, most of the parts of the lagundi plant have medicinal value.",
+            "benefits": "Lagundi is known for its anti-inflammatory and analgesic properties. It is commonly used as a remedy for respiratory conditions such as asthma and cough.",
+            "side": "Lagundi is generally considered safe when used appropriately. However, some individuals may experience mild gastrointestinal upset or skin reactions. Pregnant and breastfeeding women are advised to consult a healthcare professional before using lagundi.",
+            "images": [
+                "images\/lagundi - Copy - Copy.jpg"
+            ],
+            "clickCount": 12,
+            "commentCount": 0,
+            "recommended": true
+        }
+    ],
+    "Culinary herbs": [
+        {
+            "name": "Basil",
+            "descrip": "Commonly used in cooking, especially in Mediterranean cuisine.",
+            "benefits": "May add flavor to dishes.",
+            "side": "No significant side effects reported.",
+            "images": [
+                "images\/Basil.jpg"
+            ],
+            "clickCount": 8,
+            "commentCount": 0,
+            "recommended": true
+        },
+        {
+            "name": "Pandan",
+            "descrip": "Pandan is a tropical plant with fragrant leaves commonly used in cooking.",
+            "benefits": " It&#039;s rich in antioxidants and may have antimicrobial properties.",
+            "side": "Generally safe when used in food, but excessive consumption may cause stomach upset.",
+            "images": [
+                "images\/Pandan.jpg"
+            ],
+            "clickCount": 6,
+            "commentCount": 0,
+            "recommended": true
+        },
+        {
+            "name": "Rosemary",
+            "descrip": "Rosemary is an aromatic herb known for its culinary uses and potential health benefits.",
+            "benefits": "It may have antioxidant and anti-inflammatory properties. It&#039;s also used to improve memory and concentration.",
+            "side": "Excessive consumption may cause allergic reactions. Avoid in large amounts during pregnancy.",
+            "images": [
+                "images\/Rosemary.jpg"
+            ],
+            "clickCount": 6,
+            "commentCount": 0,
+            "recommended": true
+        }
+    ],
+    "Edible flowers": [
+        {
+            "name": "Calendula",
+            "descrip": "Calendula, (genus Calendula), small genus of 15\u201320 species of herbaceous plants (family Asteraceae) found in temperate regions of Eurasia and North Africa.\r\n\r\nCalendulas are annual or perennial plants with waxy, smooth, or glandular stems. The simple leaves can be somewhat toothed and are borne alternately along the stems. The leaves of some species are sessile (lacking a leaf stalk) and may have clasping leaf bases. The composite flower heads, borne singly, consist of yellow or orange ray flowers and central disk flowers that can be yellow, red, or purple in colour. The fruit is a curved achene.",
+            "benefits": "Heals wounds and burns, reduces inflammation, promotes skin health",
+            "side": " May cause skin irritation in sensitive individuals.",
+            "images": [
+                "images\/Calendula.jpg"
+            ],
+            "clickCount": 7,
+            "commentCount": 0,
+            "recommended": true
+        },
+        {
+            "name": "Malunggay",
+            "descrip": "Malunggay, or Moringa, is a nutrient-rich tree with various culinary and medicinal uses.",
+            "benefits": "It&#039;s a good source of vitamins and minerals, and it&#039;s used for its anti-inflammatory and antioxidant properties.",
+            "side": "Generally safe when consumed in moderation. High doses may have laxative effects.",
+            "images": [
+                "images\/Malunggay.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0,
+            "recommended": true
+        },
+        {
+            "name": "Nasturtium",
+            "descrip": "Nasturtium is a flowering plant with peppery-tasting leaves and flowers.",
+            "benefits": " Rich in vitamins and minerals, it may have antimicrobial properties.",
+            "side": "Generally safe when consumed in moderation. Allergic reactions are rare.",
+            "images": [
+                "images\/Nasturtium.jpg"
+            ],
+            "clickCount": 2,
+            "commentCount": 0,
+            "recommended": true
+        }
+    ]
+}

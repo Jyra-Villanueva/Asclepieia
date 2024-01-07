@@ -2,50 +2,79 @@
     "herb": [
         {
             "name": "Tawa-tawa",
-            "descrip": "Updated deuhu",
+            "descrip": "Euphorbia hirta (Tawa-tawa) is a plant known for its traditional use in herbal medicine. It is rich in antioxidants, flavonoids, alkaloids, and polyphenols. Tawa-tawa is commonly used to alleviate symptoms associated with certain conditions.",
             "benefits": [
-                "helloooo",
-                "Updated Benefit 1",
-                "hhhhhhhhhhUpdated Benefit 2"
+                "Antioxidant",
+                "Anti-inflammatory",
+                "Immune system support",
+                "Traditional remedy for certain illnesses",
+                "May aid in digestive health"
             ],
             "side": [
-                "Updated Side Effect 1",
-                "heeyy",
-                "33333",
-                "halloo"
-            ],
-            "image": [
-                "updated_tawa-tawa.jpg"
-            ],
-            "clickCount": 107
-        },
-        {
-            "name": "add",
-            "descrip": "asas,  anoo na",
-            "benefits": [
-                "sasasa",
-                "asasas",
-                " heeelooo"
-            ],
-            "side": [
-                "sasasasasasasasasasasasa,dsasa"
+                "Mild digestive discomfort in some individuals",
+                "Allergic reactions in sensitive individuals"
             ],
             "images": [
-                "images\/Desktop - 1.png"
+                "images\/Tawa-tawa.jpg"
             ],
-            "clickCount": 28,
-            "commentCount": 1
+            "clickCount": 38,
+            "commentCount": 0
         },
         {
             "name": "Aloe Vera",
-            "descrip": "Aloe vera is an herbaceous perennial in the family Liliaceae grown for its succulent leaves which have a variety of culinary and medicinal uses. The plant grows best in full sunshine and requires little water for its establishment, growth and reproduction. It prefers areas with mean annual temperatures within the range 19-27\u00b0C, but can tolerate temperatures ranging from 10\u00b0C to 35\u00b0C. \r\n\r\nThe Aloe vera plant has a short, stout stem and a rosette of fleshy, lanceolate leaves which have a serrated margin of small white teeth. The leaves may be flecked with white and are pale green or grey-green in colour. Aloe vera plants produce a conspicuous inflorescence composed of densely packed pendulous yellow flowers on a spike which can be up to 90 cm (35 in) in height. The plant itself can grow to be 1 m (3 ft) in height, it  takes 4-5 years to mature and can live for up to 100 years if well cared for. \r\n\r\nAloe vera is indigenous to Eastern and Southern Africa. It belongs to a large class of plants known as \u201cxeroids\u201d characterised for its ability to close its stomata completely to avoid loss of water. This adaptation allows plants to survive long and extreme drought periods.",
-            "benefits": "Aloe Vera is valued for its skin-soothing properties, aiding in wound healing and providing relief for burns and skin irritations.",
-            "side": " Excessive consumption of Aloe Vera latex may lead to digestive discomfort and potential laxative effects.",
+            "descrip": "Known for its skin-soothing properties; can be consumed for potential health benefits.",
+            "benefits": "May have skin-soothing properties and potential health benefits when consumed.",
+            "side": "Excessive consumption of Aloe Vera latex may lead to digestive discomfort and potential laxative effects.",
             "images": [
                 "images\/alovera.jpg"
             ],
+            "clickCount": 22,
+            "commentCount": 0
+        },
+        {
+            "name": "Turmeric",
+            "descrip": "Turmeric or Curcuma longa  is a flowering plant with rhizomes that are commonly used as a spice. It has bright yellow-orange flesh.",
+            "benefits": "Turmeric contains curcumin, known for its anti-inflammatory and antioxidant properties. It may help reduce inflammation, support joint health, and have potential benefits for digestive health.",
+            "side": "In high doses, turmeric may cause gastrointestinal issues. Individuals on blood-thinning medications should consult a healthcare professional before using turmeric supplements.",
+            "images": [
+                "images\/Turmeric.jpeg"
+            ],
+            "clickCount": 16,
+            "commentCount": 0
+        },
+        {
+            "name": "Lavender",
+            "descrip": "Lavender is a flowering plant of the Lamiaceae family. There are many species of lavender, with Lavandula angustifolia being one of the most commonly used and studied.1\r\nKajjari S, Joshi RS, Hugar SM, Gokhale N, Meharwade P, Uppin C. The effects of lavender essential oil and its clinical implications in dentistry: a review. Int J Clin Pediatr Dent. 2022;15(3):385-388. doi:10.5005\/jp-journals-10005-2378\r\n\r\n\r\nLavender has been used since ancient Roman times, when it was added to bathwater to enhance the smell. It is now commonly used to flavor foods, as a fragrance ingredient, and as a dietary supplement for various health conditions.2\r\n\r\nMany bioactive substances found in lavender are thought to have health benefits. These substances include terpenes, polyphenols, and flavonoids. Linalool and linalyl acetate (two types of terpenes) are thought to be responsible for the supposed calming effects of lavender.3\r\n\r\nLavender is also said to possess antioxidant, antimicrobial, antifungal, and anti-inflammatory properties.4 Much of the research performed on lavender has been of poor design.2 Higher levels of research are needed to confirm the potential health benefits and uses of lavender.",
+            "benefits": "Lavender may have various health benefits, including relieving anxiety and depression and supporting skin health. You can consume it, such as a tea or capsule, apply it topically, or use it for aromatherapy.",
+            "side": "llergic reactions to lavender may occur in some individuals. Skin irritation or headaches are possible side effects.",
+            "images": [
+                "images\/Lavender.jpg"
+            ],
             "clickCount": 13,
-            "commentCount": 3
+            "commentCount": 0
+        },
+        {
+            "name": "Ampalaya",
+            "descrip": "Ampalaya, also known as bitter gourd or Momordica charantia, is a tropical fruit with a distinctively bitter taste. It originated in India but is now widely grown and consumed throughout Asia, including the Philippines where it\u2019s become a staple ingredient in traditional cuisine.\r\n\r\nThe plant itself grows on vines and produces oblong-shaped green fruits that resemble cucumbers. The skin of the fruit is bumpy and rough, while the interior contains small seeds surrounded by soft flesh.",
+            "benefits": [
+                "Diabetes :  Ampalaya or bitter gourd is a widely used herbal remedy to lower the blood sugar levels for diabetic patients.",
+                "Analgesic:  The juice of Amplaya is used to alleviate symptoms of fever",
+                "headache and body pains.",
+                "Eye problems:   Amplaya juice is also used to treat eye related problems that include sty and sore eyes. It is thought to improve eyesight and prevents the development of cataract.",
+                "Respiratory ailments:  The juice from amplaya fruit and leaves are used to treat various respiratory problems that may include",
+                "asthma",
+                "wheezing cough",
+                "bronchitis and pharyngitis.",
+                "Improves circulation"
+            ],
+            "side": [
+                "Bitter melon may cause digestive discomfort in some individuals. Pregnant women should avoid excessive consumption due to potential adverse effects on pregnancy."
+            ],
+            "images": [
+                "images\/ampalaya.jpg"
+            ],
+            "clickCount": 10,
+            "commentCount": 0
         },
         {
             "name": "Averrhoa bilimbi",
@@ -56,24 +85,40 @@
                 "images\/kamyas.jpg"
             ],
             "clickCount": 7,
-            "commentCount": 4
+            "commentCount": 0
         },
         {
-            "name": "Ampalaya",
-            "descrip": "Ampalaya, also known as bitter gourd or Momordica charantia, is a tropical fruit with a distinctively bitter taste. It originated in India but is now widely grown and consumed throughout Asia, including the Philippines where it\u2019s become a staple ingredient in traditional cuisine.\r\n\r\nThe plant itself grows on vines and produces oblong-shaped green fruits that resemble cucumbers. The skin of the fruit is bumpy and rough, while the interior contains small seeds surrounded by soft flesh.",
-            "benefits": [
-                "Diabetes :  Ampalaya or bitter gourd is a widely used herbal remedy to lower the blood sugar levels for diabetic patients.",
-                "Analgesic:  The juice of Amplaya is used to alleviate symptoms of fever, headache and body pains.",
-                "Eye problems:   Amplaya juice is also used to treat eye related problems that include sty and sore eyes. It is thought to improve eyesight and prevents the development of cataract.",
-                "Respiratory ailments:  The juice from amplaya fruit and leaves are used to treat various respiratory problems that may include, asthma, wheezing cough, bronchitis and pharyngitis.",
-                "Improves circulation"
-            ],
-            "side": "Bitter melon may cause digestive discomfort in some individuals. Pregnant women should avoid excessive consumption due to potential adverse effects on pregnancy.",
+            "name": "Basil",
+            "descrip": "Commonly used in cooking, especially in Mediterranean cuisine.",
+            "benefits": "May add flavor to dishes.",
+            "side": "No significant side effects reported.",
             "images": [
-                "images\/ampalaya.jpg"
+                "images\/Basil.jpg"
             ],
-            "clickCount": 6,
-            "commentCount": 5
+            "clickCount": 7,
+            "commentCount": 0
+        },
+        {
+            "name": "Calabash gourd",
+            "descrip": "Bottle gourd (Calabash) is the fruit of a vining plant known scientifically as Lagenaria siceraria, a member of the squash family. Among its various other names, bottle gourd is also known as calabash and white-flowered gourd (1).\r\n\r\nLike other members of the squash family, bottle gourd is used as a cooked vegetable for culinary purposes despite being a botanical fruit. It may also be used for the commercial production of bottle gourd juice.\r\n\r\nThe bottle gourd has a unique appearance with a pale green color and an hourglass shape, as shown in the above image.\r\n\r\nOnce cooked, the vegetable has a soft texture similar to a slightly firmer zucchini. These two vegetables also share some flavor characteristics, but bottle gourd tastes slightly sweeter.",
+            "benefits": "A Good Source of Vitamin C, Moderate Levels of the Minerals Potassium and Zinc, Low In Calories, Rich Source of Phytochemicals, and May Improve Blood Lipid (Cholesterol) Profiles",
+            "side": "It can become toxic with improper storage (bottle gourd poisoning)",
+            "images": [
+                "images\/upo.jpg"
+            ],
+            "clickCount": 7,
+            "commentCount": 0
+        },
+        {
+            "name": "Vitex negundo",
+            "descrip": "Lagundi (scientific name: Vitex negundo) is a shrub that grows in the Philippines. It is one of the ten herbal medicines endorsed by the Philippine Department of Health as an effective herbal medicine with proven therapeutic value. Commonly known in the Ilocos region as dangla, lagundi has been clinically tested to be effective in the treatment of colds, flu, fever, bronchial asthma, chronic bronchitis, and pharyngitis. Studies have shown that Lagundi can prevent the body&#039;s production of leukotrienes, which are released during an asthma attack. Lagundi contains Chrysoplenol D, a substance with anti-histamine and muscle relaxant properties. Even in Japan, lagundi is becoming recognized as an effective herbal medicine, especially since researches have shown that it contains properties that make it an expectorant and it has been reported to function as a tonic as well. More than that, most of the parts of the lagundi plant have medicinal value.",
+            "benefits": "Lagundi is known for its anti-inflammatory and analgesic properties. It is commonly used as a remedy for respiratory conditions such as asthma and cough.",
+            "side": "Lagundi is generally considered safe when used appropriately. However, some individuals may experience mild gastrointestinal upset or skin reactions. Pregnant and breastfeeding women are advised to consult a healthcare professional before using lagundi.",
+            "images": [
+                "images\/lagundi - Copy - Copy.jpg"
+            ],
+            "clickCount": 7,
+            "commentCount": 0
         },
         {
             "name": "Calamansi",
@@ -83,18 +128,173 @@
             "images": [
                 "images\/calamansi - Copy - Copy.jpg"
             ],
-            "clickCount": 2,
+            "clickCount": 6,
             "commentCount": 0
         },
         {
-            "name": "Turmeric",
-            "descrip": "Turmeric or Curcuma longa  is a flowering plant with rhizomes that are commonly used as a spice. It has bright yellow-orange flesh.",
-            "benefits": "Turmeric contains curcumin, known for its anti-inflammatory and antioxidant properties. It may help reduce inflammation, support joint health, and have potential benefits for digestive health.",
-            "side": "In high doses, turmeric may cause gastrointestinal issues. Individuals on blood-thinning medications should consult a healthcare professional before using turmeric supplements.",
+            "name": "Guava",
+            "descrip": "Originally guava came from hot and humid areas in Mexico, Central America, Northern South America, and the Caribbean. It is indeed a tropical fruit, and throughout these countries, guava gets used in an array of jelly-like desserts, pies, pastries, as a sauce, to glaze meat and serve fresh. Today guava is grown in many other tropical and subtropical climates in areas such as Asia, the United States, and Africa. In the United States, a lot of guava is grown in Florida, where it was introduced as a crop to farmers in the mid-1800s by way of Cuba. \r\n\r\nThere are around 30 types of guava in either the white or red category, which includes strawberry guava, cherry guava, Miami red guava, Behat Coconut guava, and apple guava, to name a handful. The pink guava fruits have more water content, fewer seeds, and aren&#039;t as sweet as their white counterpart, which is denser and contains more starch. Guava comes in many sizes and is either round or shaped like an avocado. ",
+            "benefits": " Rich in vitamin C, boosts immunity, promotes digestive health.",
+            "side": "May cause constipation and interfere with iron absorption.",
             "images": [
-                "images\/turmeric.jpg"
+                "images\/Guava.jpg"
             ],
-            "clickCount": 1
+            "clickCount": 6,
+            "commentCount": 0
+        },
+        {
+            "name": "Lemongrass",
+            "descrip": "Lemongrass is a tropical plant with a citrus flavor, commonly used in culinary dishes and teas.",
+            "benefits": " It&#039;s known for its antioxidant properties and may have anti-inflammatory effects.",
+            "side": "Generally safe when used in moderation. Some individuals may be allergic.",
+            "images": [
+                "images\/Lemongrass.jpg"
+            ],
+            "clickCount": 6,
+            "commentCount": 0
+        },
+        {
+            "name": "Coconut",
+            "descrip": "Coconuts were dubbed as such by the Spanish and Portuguese explorers. Apparently, the brown and hairy surface of mature Coconuts reminded them on one of their childhood fear, the Iberian Bogeyman of which they call \u201cEl Coco\u201d. According to them, El Coco is a hairy monster that hides under the bed of children and eats those who misbehave.\r\n\r\nMost of us might be familiar with this fruit and we might have different memories when we think about it. Some might recall a tropical vacation wherein they are sipping coconut water from a young coconut while sunbathing; and others would possibly envision their folks cooking their favorite dish using mature coconut as an ingredient. Some of you might even remember a song that was made famous by a teen singing group during the early 90\u2019s (I think it goes like \u201cit\u2019s the coco fruit, from the coco tree\u2026\u201d). I\u2019m sure that no Filipino would say that he\/she is not familiar with this fruit. The Coconut tree might not be the national tree of the Philippines and the Coconut fruit might not be the national fruit as well but it is visible in almost every location. In fact, the Philippines was the world\u2019s largest Coconut producer during the year 2007.",
+            "benefits": "The coconut tree is also referred to as \u201cThe Tree of Life\u201d. It is because all parts of this tree, from the roots to the leaves and fruits, can be used in many ways. Calling it The Tree of Life, is just fitting because of all the amazing health benefits of coconut. That is why, it is important to include this in your daily diet too.  Rich in healthy fats, promotes heart health, boosts immunity.",
+            "side": "May cause high cholesterol and interfere with thyroid function.",
+            "images": [
+                "images\/cc.jpg"
+            ],
+            "clickCount": 4,
+            "commentCount": 0
+        },
+        {
+            "name": "Katuday",
+            "descrip": " Katuray is a tree known for its edible flowers and leaves.",
+            "benefits": "Rich in vitamins and minerals, it&#039;s used in traditional medicine for various purposes.",
+            "side": "Limited information; consult with a healthcare professional.",
+            "images": [
+                "images\/Katuday.jpg"
+            ],
+            "clickCount": 4,
+            "commentCount": 0
+        },
+        {
+            "name": "Pandan",
+            "descrip": "Pandan is a tropical plant with fragrant leaves commonly used in cooking.",
+            "benefits": " It&#039;s rich in antioxidants and may have antimicrobial properties.",
+            "side": "Generally safe when used in food, but excessive consumption may cause stomach upset.",
+            "images": [
+                "images\/Pandan.jpg"
+            ],
+            "clickCount": 4,
+            "commentCount": 0
+        },
+        {
+            "name": "Rosemary",
+            "descrip": "Rosemary is an aromatic herb known for its culinary uses and potential health benefits.",
+            "benefits": "It may have antioxidant and anti-inflammatory properties. It&#039;s also used to improve memory and concentration.",
+            "side": "Excessive consumption may cause allergic reactions. Avoid in large amounts during pregnancy.",
+            "images": [
+                "images\/Rosemary.jpg"
+            ],
+            "clickCount": 4,
+            "commentCount": 0
+        },
+        {
+            "name": "Sambong",
+            "descrip": "Sambong | Blumea balsamifera DC, a medicinal herb, is widely distributed in Eastern and Southeastern Asia. It has been used in folk medicine for its many health benefits that include the treatment of septic wounds, respiratory infections, stomach pains and kidney stones.\r\n\r\nSambong is used as herbal medicine and is a shrub that grows wild in the tropical climate countries such as Philippines, India, Africa and found even in eastern Himalayas. Sambong is widely used in the Philippines as herbal medicine. Sambong leaves are known for its ngai or Blumea camphor that is used as herbal medicine to treat kidney stones, wounds and cuts, rheumatism, anti-diarrhea, anti spasms, colds and coughs and hypertension. The Philippine Council for Health Research and Development (PCHRD) has develop the technology for a sambong herbal medicine tablet.\r\n\r\nSambong is an aromatic shrub, that grows from 1 to 4 meters in height. It is considered as a weed in some countries and is difficult to eradicate. Sambong has yellow flowering heads that is 6 mm long. Sambong leaves are green obloid that spreads in a pyramidial pattern. Sambong bears fruits that are ribbed and hairy on top. Sambong fruit has 1 seed.",
+            "benefits": "Sambong is traditionally used as a diuretic and is believed to have kidney-cleansing properties. It is also used for treating urinary tract infections.",
+            "side": "Fortunately, sambong has no known side effects. But sambong has been known to cause allergic reaction, particularly for those sensitive to ragweed plants and the like.  Other possible side effects are skin irritation and itching.  Sambong benefits definitely outweigh the risks",
+            "images": [
+                "images\/sambong.jpg"
+            ],
+            "clickCount": 4,
+            "commentCount": 0
+        },
+        {
+            "name": "Banaba",
+            "descrip": "Herbal remedies have been around since the early days of medicine. While these days, synthetic medicine has replaced a lot of herbal remedies, there is still a place for medicinal plants when it comes to health. One well-known plant is called Lagerstroemia speciosa, better known by its common name, banaba. Banaba is touted to help with diabetes, high blood pressure, cholesterol, kidney problems, and even urinary tract infections or UTI. Read on to learn more about the possible uses and benefits of banaba.\r\n\r\nThe Banaba plant is a tree native to Southeast Asia. It is widely known as a folk remedy for decades, with the first research study about it done back in 1940.\r\n\r\nIt is known as banaba in the Philippines, but is also referred to as crepe myrtle, pride of India, giant crape myrtle, and queen\u2019s flower.",
+            "benefits": "Lowers blood sugar, promotes weight loss, reduces cholesterol levels.",
+            "side": " May cause diarrhea and interact with blood-thinning medications.",
+            "images": [
+                "images\/banaba.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
+        },
+        {
+            "name": "Calendula",
+            "descrip": "Calendula, (genus Calendula), small genus of 15\u201320 species of herbaceous plants (family Asteraceae) found in temperate regions of Eurasia and North Africa.\r\n\r\nCalendulas are annual or perennial plants with waxy, smooth, or glandular stems. The simple leaves can be somewhat toothed and are borne alternately along the stems. The leaves of some species are sessile (lacking a leaf stalk) and may have clasping leaf bases. The composite flower heads, borne singly, consist of yellow or orange ray flowers and central disk flowers that can be yellow, red, or purple in colour. The fruit is a curved achene.",
+            "benefits": "Heals wounds and burns, reduces inflammation, promotes skin health",
+            "side": " May cause skin irritation in sensitive individuals.",
+            "images": [
+                "images\/Calendula.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
+        },
+        {
+            "name": "Dandelion",
+            "descrip": "Dandelion, weedy perennial herb of the genus Taraxacum of the family Asteraceae, native to Eurasia but widespread throughout much of temperate North America. The most familiar species is T. officinale.\r\n\r\nExplore the health benefits of dandelion and its various use in the kitchen\r\nExplore the health benefits of dandelion and its various use in the kitchen\r\nOverview of dandelions.See all videos for this article\r\nIt has a rosette of leaves at the base of the plant; a deep taproot; a smooth, hollow stem; leaves that may be nearly smooth-margined, toothed, or deeply cut; and a solitary yellow flower head composed only of ray flowers (no disk flowers). The fruit is a ball-shaped cluster of many small, tufted, one-seeded fruits. The bitter young leaves are used in salads, and the roots can be used to make a coffee-like beverage.",
+            "benefits": "Supports liver health, aids digestion, promotes detoxification",
+            "side": "May interact with certain medications.",
+            "images": [
+                "images\/dandi.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
+        },
+        {
+            "name": "Eggplant",
+            "descrip": "Eggplant, scientifically known as Solanum melongena, is a member of the nightshade family of plants. It is native to India and has been cultivated for thousands of years in Asia and the Middle East. The vegetable has an elongated shape with dark purple skin that can sometimes appear black or white. Some cultivars also appear in green and yellow.\r\nWhat makes eggplants unique is their spongy texture which makes them ideal for absorbing different flavors when cooked with spices and sauces. Additionally, they have low-calorie content making them a perfect ingredient for individuals who want to maintain a healthy diet.",
+            "benefits": "Offers Essential Nutrients, Aids Digestive Health, Regulates Blood Sugar, Strengthens Bone Health, Rich In Antioxidants, Promotes Skin Wellness, Supports Weight Loss, Has Antimicrobial Qualities, Lowers Cholesterol, and Decreases Anemia Risk",
+            "side": "Eggplants are low in calories but high in dietary fiber which can help with weight management and digestive health. It\u2019s also rich in antioxidants such as anthocyanins, which are beneficial for heart health by reducing inflammation and lowering blood pressure.    Eggplants contain vitamins B1 and B6 that contribute to brain function while minerals like copper aid in iron absorption. Additionally, regular consumption of eggplants may reduce your risk of developing type 2 diabetes due to their low glycemic index content.",
+            "images": [
+                "images\/talong.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
+        },
+        {
+            "name": "Garlic",
+            "descrip": "Garlic grows underground in the form of a bulb. (Its long green shoots produce flower stalks called garlic scapes, which can be eaten.) Covered in an inedible papery skin, the bulb, or head as it is more often referred to, is comprised of individual sections called cloves, and there can be anywhere from 10 to 20 cloves per head. These cloves are themselves enclosed in a paperlike skin, which needs to be removed, and the pale yellowish flesh within is the part of the garlic that is used in cooking and can be cut in a variety of ways.\r\n\r\nGarlic, which is inexpensive, is generally used as a flavoring ingredient in recipes rather than as the main ingredient itself. An exception to this is roasted garlic, which can be eaten as a spread or condiment.",
+            "benefits": "Antibacterial, antiviral, and cardiovascular health support.v",
+            "side": "May cause bad breath and gastrointestinal discomfort. Avoid before surgery.",
+            "images": [
+                "images\/garlic.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
+        },
+        {
+            "name": "Ginkgo Biloba",
+            "descrip": "Ginkgo, (Ginkgo biloba), deciduous gymnosperm tree (family Ginkgoaceae), native to China. Ginkgo has been planted since ancient times in Chinese and Japanese temple gardens and is now valued in many parts of the world as a fungus- and insect-resistant ornamental tree. It tolerates cold weather and, unlike most gymnosperms, can survive the adverse atmospheric conditions of urban areas. Although widely cultivated, the plant is listed as an endangered species by the IUCN Red List and is threatened in the wild.\r\n\r\nGinkgo is the only living representative of the order Ginkgoales (division Ginkgophyta), which contained approximately 15 genera that date from the Permian Period (about 298.9 million to 251.9 million years ago). Extinct genera, such as Ginkgoites and Baiera, are known from fossilized leaves that are similar to those of the present-day tree. The ginkgo is often termed a living fossil because it was once unclear whether uncultivated groups of ginkgo could be found in the wild.",
+            "benefits": "Improves cognitive function, supports circulation.",
+            "side": "May cause headaches, dizziness, and gastrointestinal upset; can interact with blood-thinning medications",
+            "images": [
+                "images\/ginko.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
+        },
+        {
+            "name": "Kalabasa",
+            "descrip": "Squash, also known as kalabasa in the Philippines, is a type of vegetable that belongs to the gourd family. This plant produces fruits that vary in shape, size, and color depending on the variety. Generally speaking, squash has a hard outer shell and soft flesh inside.\r\n\r\nIn terms of nutritional value, squash is an excellent source of vitamins A and C as well as potassium and fiber. These nutrients are essential for various bodily functions such as maintaining healthy skin and vision or regulating blood pressure.\r\n\r\nThere are several varieties of squash available today including butternut, acorn, spaghetti squash, and more. Each variety has its unique flavor profile making it suitable for different recipes from soups to stews or even desserts!",
+            "benefits": "Kalabasa, or squash, is a nutritional powerhouse offering a range of health benefits. It is a rich source of essential nutrients, including vitamins A and C, potassium, and dietary fiber. The high vitamin C content in kalabasa contributes to a robust immune system, aiding the body in defending against infections and illnesses. Vitamin A promotes good eyesight and overall eye health, making kalabasa a valuable addition to eye-friendly diets. The dietary fiber in kalabasa supports digestive health by aiding in digestion, promoting a healthy gut, and preventing constipation. Potassium, a key mineral in kalabasa, is associated with maintaining healthy blood pressure, thereby supporting cardiovascular health. For those focused on weight management, kalabasa is a low-calorie, fiber-rich option. The combination of vitamins A and C, along with antioxidants, contributes to skin health by promoting collagen production and protecting against free radicals. Additionally, kalabasa contains essential minerals like potassium and magnesium, crucial for maintaining strong and healthy bones.",
+            "side": "Consuming kalabasa can be beneficial, but considerations are essential. Some individuals may experience allergies, necessitating prompt medical attention for reactions like itching or swelling. Excessive intake may lead to gastrointestinal discomfort, emphasizing the importance of moderation. While generally safe for those with diabetes, monitoring portion sizes is advised due to carbohydrate content affecting blood sugar levels. For individuals with specific medical conditions or on medications, consulting a healthcare professional is crucial, given potential interactions that may impact well-being.",
+            "images": [
+                "images\/kalabasa.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
+        },
+        {
+            "name": "Papaya ",
+            "descrip": "Carica papaya is the scientific name of the orange and green fruit known more commonly as papaya. It tastes sweet and has a soft texture that many find appealing. The seeds are also edible, although they\u2019re more bitter than the fruit itself.\r\n\r\nPapayas grow best in a tropical region where there is plentiful rainfall but little long-term flooding. Freezing temperatures may damage a papaya crop.\r\n\r\nPapayas are originally from Central America. Indigenous people in that area ate papayas and used them for medicinal purposes. In the 1500s and 1600s, Spanish and Portuguese colonizers brought the seeds to other tropical areas of the globe, including the Philippines and India.",
+            "benefits": "Rich in vitamins, especially vitamin C, papaya aids digestion due to enzymes like papain. It contributes to overall health and well-being.",
+            "side": " Excessive consumption of papaya seeds may be toxic. Some individuals may be allergic to latex found in unripe papaya. It&#039;s essential to moderate intake.",
+            "images": [
+                "images\/papaya.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
         },
         {
             "name": "Sili",
@@ -126,100 +326,22 @@
                 "Blisters and rashes",
                 "Excessive sweating and Irritated lips."
             ],
-            "image": [
-                "images\/spicy.jpg"
-            ]
-        },
-        {
-            "name": "Sambong",
-            "descrip": "Sambong | Blumea balsamifera DC, a medicinal herb, is widely distributed in Eastern and Southeastern Asia. It has been used in folk medicine for its many health benefits that include the treatment of septic wounds, respiratory infections, stomach pains and kidney stones.\r\n\r\nSambong is used as herbal medicine and is a shrub that grows wild in the tropical climate countries such as Philippines, India, Africa and found even in eastern Himalayas. Sambong is widely used in the Philippines as herbal medicine. Sambong leaves are known for its ngai or Blumea camphor that is used as herbal medicine to treat kidney stones, wounds and cuts, rheumatism, anti-diarrhea, anti spasms, colds and coughs and hypertension. The Philippine Council for Health Research and Development (PCHRD) has develop the technology for a sambong herbal medicine tablet.\r\n\r\nSambong is an aromatic shrub, that grows from 1 to 4 meters in height. It is considered as a weed in some countries and is difficult to eradicate. Sambong has yellow flowering heads that is 6 mm long. Sambong leaves are green obloid that spreads in a pyramidial pattern. Sambong bears fruits that are ribbed and hairy on top. Sambong fruit has 1 seed.",
-            "benefits": "Sambong is traditionally used as a diuretic and is believed to have kidney-cleansing properties. It is also used for treating urinary tract infections.",
-            "side": "Fortunately, sambong has no known side effects. But sambong has been known to cause allergic reaction, particularly for those sensitive to ragweed plants and the like.  Other possible side effects are skin irritation and itching.  Sambong benefits definitely outweigh the risks",
             "images": [
-                "images\/sambong.jpg"
+                "images\/Sili.jpg"
             ],
-            "clickCount": 0
+            "clickCount": 3,
+            "commentCount": 0
         },
         {
-            "name": "Serpentina",
-            "descrip": "Serpentina is a common name for a plant scientifically known as \u201cRauvolfia serpentina.\u201d\r\n\r\n\r\nIt\u2019s native to the Indian subcontinent and Southeast Asia.\r\n\r\nTraditionally, it has been used in Ayurvedic medicine to treat various ailments like high blood pressure, anxiety, and certain mental disorders.\r\n\r\nThe plant contains alkaloids, with reserpine being the most well-known, which has been used as an antihypertensive drug in modern medicine.\r\n\r\nHowever, due to potential side effects, its usage in modern medicine has decreased over time.",
-            "benefits": " Traditionally used for its potential anti-inflammatory and immune-boosting properties, serpentina is also employed in addressing respiratory conditions.",
-            "side": "High doses may cause gastrointestinal upset. Pregnant and breastfeeding women should consult with a healthcare professional before incorporating serpentina into their wellness routine.",
+            "name": "Taro",
+            "descrip": "Taro, (Colocasia esculenta), herbaceous plant of the arum family (Araceae) and its edible rootlike corm. Taro is probably native to southeastern Asia, whence it spread to Pacific islands and became a staple crop. It is cultivated for its large, starchy, spherical corms (underground stems), commonly known as \u201ctaro root,\u201d which are consumed as a cooked vegetable, made into puddings and breads, and also made into the Polynesian poi, a thin, pasty, highly digestible mass of fresh or fermented taro starch. The large leaves of the taro are commonly stewed.\r\n\r\ntaro\r\ntaro\r\nTaro plants (Colocasia esculenta) cultivated in the Cook Islands.\r\ntaro cultivation\r\ntaro cultivation\r\nView of taro fields in Hawaii.\r\nTaro is cultivated in rich well-drained soil. The corms are harvested seven months after planting. Taro leaves and corms are poisonous if eaten raw; the acrid calcium oxalate they contain must first be destroyed by heating.",
+            "benefits": " Rich in fiber and antioxidants, promotes gut health, regulates blood sugar levels.",
+            "side": "May cause allergic reactions in some individuals.",
             "images": [
-                "images\/serpentina.jpg"
-            ]
-        },
-        {
-            "name": "Papaya ",
-            "descrip": "Carica papaya is the scientific name of the orange and green fruit known more commonly as papaya. It tastes sweet and has a soft texture that many find appealing. The seeds are also edible, although they\u2019re more bitter than the fruit itself.\r\n\r\nPapayas grow best in a tropical region where there is plentiful rainfall but little long-term flooding. Freezing temperatures may damage a papaya crop.\r\n\r\nPapayas are originally from Central America. Indigenous people in that area ate papayas and used them for medicinal purposes. In the 1500s and 1600s, Spanish and Portuguese colonizers brought the seeds to other tropical areas of the globe, including the Philippines and India.",
-            "benefits": "Rich in vitamins, especially vitamin C, papaya aids digestion due to enzymes like papain. It contributes to overall health and well-being.",
-            "side": " Excessive consumption of papaya seeds may be toxic. Some individuals may be allergic to latex found in unripe papaya. It&#039;s essential to moderate intake.",
-            "images": [
-                "images\/papaya.jpg"
-            ]
-        },
-        {
-            "name": "Kalabasa (Squash)",
-            "descrip": "Squash, also known as kalabasa in the Philippines, is a type of vegetable that belongs to the gourd family. This plant produces fruits that vary in shape, size, and color depending on the variety. Generally speaking, squash has a hard outer shell and soft flesh inside.\r\n\r\nIn terms of nutritional value, squash is an excellent source of vitamins A and C as well as potassium and fiber. These nutrients are essential for various bodily functions such as maintaining healthy skin and vision or regulating blood pressure.\r\n\r\nThere are several varieties of squash available today including butternut, acorn, spaghetti squash, and more. Each variety has its unique flavor profile making it suitable for different recipes from soups to stews or even desserts!",
-            "benefits": "Kalabasa, or squash, is a nutritional powerhouse offering a range of health benefits. It is a rich source of essential nutrients, including vitamins A and C, potassium, and dietary fiber. The high vitamin C content in kalabasa contributes to a robust immune system, aiding the body in defending against infections and illnesses. Vitamin A promotes good eyesight and overall eye health, making kalabasa a valuable addition to eye-friendly diets. The dietary fiber in kalabasa supports digestive health by aiding in digestion, promoting a healthy gut, and preventing constipation. Potassium, a key mineral in kalabasa, is associated with maintaining healthy blood pressure, thereby supporting cardiovascular health. For those focused on weight management, kalabasa is a low-calorie, fiber-rich option. The combination of vitamins A and C, along with antioxidants, contributes to skin health by promoting collagen production and protecting against free radicals. Additionally, kalabasa contains essential minerals like potassium and magnesium, crucial for maintaining strong and healthy bones.",
-            "side": "Consuming kalabasa can be beneficial, but considerations are essential. Some individuals may experience allergies, necessitating prompt medical attention for reactions like itching or swelling. Excessive intake may lead to gastrointestinal discomfort, emphasizing the importance of moderation. While generally safe for those with diabetes, monitoring portion sizes is advised due to carbohydrate content affecting blood sugar levels. For individuals with specific medical conditions or on medications, consulting a healthcare professional is crucial, given potential interactions that may impact well-being.",
-            "images": [
-                "images\/kalabasa.jpg"
-            ]
-        },
-        {
-            "name": "Lavender",
-            "descrip": "Lavender is a flowering plant of the Lamiaceae family. There are many species of lavender, with Lavandula angustifolia being one of the most commonly used and studied.1\r\nKajjari S, Joshi RS, Hugar SM, Gokhale N, Meharwade P, Uppin C. The effects of lavender essential oil and its clinical implications in dentistry: a review. Int J Clin Pediatr Dent. 2022;15(3):385-388. doi:10.5005\/jp-journals-10005-2378\r\n\r\n\r\nLavender has been used since ancient Roman times, when it was added to bathwater to enhance the smell. It is now commonly used to flavor foods, as a fragrance ingredient, and as a dietary supplement for various health conditions.2\r\n\r\nMany bioactive substances found in lavender are thought to have health benefits. These substances include terpenes, polyphenols, and flavonoids. Linalool and linalyl acetate (two types of terpenes) are thought to be responsible for the supposed calming effects of lavender.3\r\n\r\nLavender is also said to possess antioxidant, antimicrobial, antifungal, and anti-inflammatory properties.4 Much of the research performed on lavender has been of poor design.2 Higher levels of research are needed to confirm the potential health benefits and uses of lavender.",
-            "benefits": "Lavender may have various health benefits, including relieving anxiety and depression and supporting skin health. You can consume it, such as a tea or capsule, apply it topically, or use it for aromatherapy.",
-            "side": "llergic reactions to lavender may occur in some individuals. Skin irritation or headaches are possible side effects.",
-            "images": [
-                "images\/lavander.jpg"
-            ]
-        },
-        {
-            "name": "Ginkgo Biloba",
-            "descrip": "Ginkgo, (Ginkgo biloba), deciduous gymnosperm tree (family Ginkgoaceae), native to China. Ginkgo has been planted since ancient times in Chinese and Japanese temple gardens and is now valued in many parts of the world as a fungus- and insect-resistant ornamental tree. It tolerates cold weather and, unlike most gymnosperms, can survive the adverse atmospheric conditions of urban areas. Although widely cultivated, the plant is listed as an endangered species by the IUCN Red List and is threatened in the wild.\r\n\r\nGinkgo is the only living representative of the order Ginkgoales (division Ginkgophyta), which contained approximately 15 genera that date from the Permian Period (about 298.9 million to 251.9 million years ago). Extinct genera, such as Ginkgoites and Baiera, are known from fossilized leaves that are similar to those of the present-day tree. The ginkgo is often termed a living fossil because it was once unclear whether uncultivated groups of ginkgo could be found in the wild.",
-            "benefits": "Improves cognitive function, supports circulation.",
-            "side": "May cause headaches, dizziness, and gastrointestinal upset; can interact with blood-thinning medications",
-            "images": [
-                "images\/ginko.jpg"
-            ]
-        },
-        {
-            "name": "Peppermint",
-            "descrip": "Peppermint (Mentha piperita ) is an aromatic perennial plant that grows to a height of about 3 ft (1 m). It has light purple flowers and green leaves with serrated edges. Peppermint belongs to the Lamiaceae family and grows throughout North America, Asia, and Europe. There are more than 25 species of true mint grown throughout the world.\r\n\r\nThe plant is harvested when the oil content is highest. When ready for harvest, it is always collected in the morning, before noon sun reduces the leaf essential oil content. This generally takes place shortly before the plant blooms, which occurs in the summer (July through August) or during dry, sunny weather. The United States is responsible for producing 75% of the world&#039;s supply of peppermint.",
-            "benefits": "Relieves indigestion, soothes headaches, and has antimicrobial properties.",
-            "side": "May cause heartburn in some individuals. Avoid in individuals with acid reflux.",
-            "images": [
-                "images\/ppmint.jpg"
-            ]
-        },
-        {
-            "name": "Garlic",
-            "descrip": "Garlic grows underground in the form of a bulb. (Its long green shoots produce flower stalks called garlic scapes, which can be eaten.) Covered in an inedible papery skin, the bulb, or head as it is more often referred to, is comprised of individual sections called cloves, and there can be anywhere from 10 to 20 cloves per head. These cloves are themselves enclosed in a paperlike skin, which needs to be removed, and the pale yellowish flesh within is the part of the garlic that is used in cooking and can be cut in a variety of ways.\r\n\r\nGarlic, which is inexpensive, is generally used as a flavoring ingredient in recipes rather than as the main ingredient itself. An exception to this is roasted garlic, which can be eaten as a spread or condiment.",
-            "benefits": "Antibacterial, antiviral, and cardiovascular health support.v",
-            "side": "May cause bad breath and gastrointestinal discomfort. Avoid before surgery.",
-            "images": [
-                "images\/garlic.jpg"
-            ]
-        },
-        {
-            "name": "Basil",
-            "descrip": "Basil, (Ocimum basilicum), annual herb of the mint family (Lamiaceae), grown for its aromatic leaves. Basil is likely native to India and is widely grown as a kitchen herb. The leaves are used fresh or dried to flavour meats, fish, salads, and sauces; basil tea is a stimulant.\r\n\r\n\r\n\r\nBasil leaves are glossy and oval-shaped, with smooth or slightly toothed edges that typically cup slightly; the leaves are arranged oppositely along the square stems. The small flowers are borne in terminal clusters and range in colour from white to magenta. The plant is extremely frost-sensitive and grows best in warm climates. Basil is susceptible to Fusarium wilt, blight, and downy mildew, especially when grown in humid conditions.",
-            "benefits": "Aids digestion, reduces inflammation, relieves headaches.",
-            "side": "May interact with blood-thinning medications.",
-            "images": [
-                "images\/basils.jpg"
-            ]
-        },
-        {
-            "name": "Dandelion",
-            "descrip": "Dandelion, weedy perennial herb of the genus Taraxacum of the family Asteraceae, native to Eurasia but widespread throughout much of temperate North America. The most familiar species is T. officinale.\r\n\r\nExplore the health benefits of dandelion and its various use in the kitchen\r\nExplore the health benefits of dandelion and its various use in the kitchen\r\nOverview of dandelions.See all videos for this article\r\nIt has a rosette of leaves at the base of the plant; a deep taproot; a smooth, hollow stem; leaves that may be nearly smooth-margined, toothed, or deeply cut; and a solitary yellow flower head composed only of ray flowers (no disk flowers). The fruit is a ball-shaped cluster of many small, tufted, one-seeded fruits. The bitter young leaves are used in salads, and the roots can be used to make a coffee-like beverage.",
-            "benefits": "Supports liver health, aids digestion, promotes detoxification",
-            "side": "May interact with certain medications.",
-            "images": [
-                "images\/dandi.jpg"
-            ]
+                "images\/Taro.jpg"
+            ],
+            "clickCount": 3,
+            "commentCount": 0
         },
         {
             "name": "Green Tea",
@@ -228,16 +350,9 @@
             "side": "May cause insomnia and anxiety in some individuals.",
             "images": [
                 "images\/greentea.jpg"
-            ]
-        },
-        {
-            "name": "Calendula",
-            "descrip": "Calendula, (genus Calendula), small genus of 15\u201320 species of herbaceous plants (family Asteraceae) found in temperate regions of Eurasia and North Africa.\r\n\r\nCalendulas are annual or perennial plants with waxy, smooth, or glandular stems. The simple leaves can be somewhat toothed and are borne alternately along the stems. The leaves of some species are sessile (lacking a leaf stalk) and may have clasping leaf bases. The composite flower heads, borne singly, consist of yellow or orange ray flowers and central disk flowers that can be yellow, red, or purple in colour. The fruit is a curved achene.",
-            "benefits": "Heals wounds and burns, reduces inflammation, promotes skin health",
-            "side": " May cause skin irritation in sensitive individuals.",
-            "images": [
-                "images\/calen.jpg"
-            ]
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
             "name": "Hawthorn",
@@ -246,7 +361,27 @@
             "side": "May interact with heart medications.",
             "images": [
                 "images\/HawthornHawthorn.jpg"
-            ]
+            ],
+            "clickCount": 2,
+            "commentCount": 0
+        },
+        {
+            "name": "Lemon Balm",
+            "descrip": " Lemon balm is a fragrant herb with lemon-scented leaves.",
+            "benefits": [
+                "Lemon Balm offers relaxation",
+                "Improved sleep",
+                "Antioxidant support",
+                "Potential benefits for digestion and anti-inflammatory effects."
+            ],
+            "side": [
+                "Generally considered safe but high doses may cause sedation and gastrointestinal upset."
+            ],
+            "images": [
+                "images\/Lemon_Balm.jpg"
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
             "name": "Licorice root",
@@ -255,52 +390,20 @@
             "side": "May cause high blood pressure and water retention.",
             "images": [
                 "images\/root.jpg"
-            ]
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
-            "name": "Passionflower",
-            "descrip": "Passion flower (Passiflora incarnata) is a climbing vine with white and purple flowers. The chemicals in passion flower have calming effects.\r\n\r\nPassion flower is native to the southeastern United States and Central and South America. It&#039;s been traditionally used to help with sleep.\r\n\r\nPeople use passion flower for anxiety, including anxiety before surgery. Some people also take passion flower for insomnia, stress, ADHD, pain, and many other conditions. But there is no good scientific evidence to support these uses. In some foods and beverages, passion flower is added for flavoring.",
-            "benefits": "Reduces anxiety and stress, promotes relaxation and sleep",
-            "side": "May cause drowsiness and interact with certain medications.",
+            "name": "Malunggay",
+            "descrip": "Malunggay, or Moringa, is a nutrient-rich tree with various culinary and medicinal uses.",
+            "benefits": "It&#039;s a good source of vitamins and minerals, and it&#039;s used for its anti-inflammatory and antioxidant properties.",
+            "side": "Generally safe when consumed in moderation. High doses may have laxative effects.",
             "images": [
-                "images\/Passionflower.jpg"
-            ]
-        },
-        {
-            "name": "Banaba",
-            "descrip": "Herbal remedies have been around since the early days of medicine. While these days, synthetic medicine has replaced a lot of herbal remedies, there is still a place for medicinal plants when it comes to health. One well-known plant is called Lagerstroemia speciosa, better known by its common name, banaba. Banaba is touted to help with diabetes, high blood pressure, cholesterol, kidney problems, and even urinary tract infections or UTI. Read on to learn more about the possible uses and benefits of banaba.\r\n\r\nThe Banaba plant is a tree native to Southeast Asia. It is widely known as a folk remedy for decades, with the first research study about it done back in 1940.\r\n\r\nIt is known as banaba in the Philippines, but is also referred to as crepe myrtle, pride of India, giant crape myrtle, and queen\u2019s flower.",
-            "benefits": "Lowers blood sugar, promotes weight loss, reduces cholesterol levels.",
-            "side": " May cause diarrhea and interact with blood-thinning medications.",
-            "images": [
-                "images\/banaba.jpg"
-            ]
-        },
-        {
-            "name": "Guava",
-            "descrip": "Originally guava came from hot and humid areas in Mexico, Central America, Northern South America, and the Caribbean. It is indeed a tropical fruit, and throughout these countries, guava gets used in an array of jelly-like desserts, pies, pastries, as a sauce, to glaze meat and serve fresh. Today guava is grown in many other tropical and subtropical climates in areas such as Asia, the United States, and Africa. In the United States, a lot of guava is grown in Florida, where it was introduced as a crop to farmers in the mid-1800s by way of Cuba. \r\n\r\nThere are around 30 types of guava in either the white or red category, which includes strawberry guava, cherry guava, Miami red guava, Behat Coconut guava, and apple guava, to name a handful. The pink guava fruits have more water content, fewer seeds, and aren&#039;t as sweet as their white counterpart, which is denser and contains more starch. Guava comes in many sizes and is either round or shaped like an avocado. ",
-            "benefits": " Rich in vitamin C, boosts immunity, promotes digestive health.",
-            "side": "May cause constipation and interfere with iron absorption.",
-            "images": [
-                "images\/bayabas.jpg"
-            ]
-        },
-        {
-            "name": "Taro",
-            "descrip": "Taro, (Colocasia esculenta), herbaceous plant of the arum family (Araceae) and its edible rootlike corm. Taro is probably native to southeastern Asia, whence it spread to Pacific islands and became a staple crop. It is cultivated for its large, starchy, spherical corms (underground stems), commonly known as \u201ctaro root,\u201d which are consumed as a cooked vegetable, made into puddings and breads, and also made into the Polynesian poi, a thin, pasty, highly digestible mass of fresh or fermented taro starch. The large leaves of the taro are commonly stewed.\r\n\r\ntaro\r\ntaro\r\nTaro plants (Colocasia esculenta) cultivated in the Cook Islands.\r\ntaro cultivation\r\ntaro cultivation\r\nView of taro fields in Hawaii.\r\nTaro is cultivated in rich well-drained soil. The corms are harvested seven months after planting. Taro leaves and corms are poisonous if eaten raw; the acrid calcium oxalate they contain must first be destroyed by heating.",
-            "benefits": " Rich in fiber and antioxidants, promotes gut health, regulates blood sugar levels.",
-            "side": "May cause allergic reactions in some individuals.",
-            "images": [
-                "images\/gabi.jpg"
-            ]
-        },
-        {
-            "name": "Hibiscus rosa-sinensis",
-            "descrip": "Chinese hibiscus, (Hibiscus rosa-sinensis), perennial species of hibiscus of the mallow family (Malvaceae), cultivated for its large brightly coloured flowers. Chinese hibiscus is the most common species of hibiscus and is grown as an ornamental hedge in tropical and subtropical regions worldwide. The origins of Chinese hibiscus are disputed; it is likely from Southeast Asia, though some authorities point to Vanuatu in Oceania or various other tropical regions. No wild populations of the plant have been found in modern times.\r\n\r\nChinese hibiscus is a shrub or small tree and grows to a height of 1.2\u20133 metres (4\u201310 feet) and a width of 1.5\u20132.4 metres (5\u20138 feet). Its simple evergreen leaves are usually unlobed and have serrated margins. Bright green in colour, they are some 5\u201312 cm (2\u20135 inches) long and 3\u20138.5 cm (1\u20133 inches) wide. The plants are usually propagated by stem cuttings.\r\n",
-            "benefits": "Used in traditional medicine for treating wounds, fevers, and respiratory problems.",
-            "side": "May cause nausea and vomiting in large amounts.",
-            "images": [
-                "images\/gumamela.jpg"
-            ]
+                "images\/Malunggay.jpg"
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
             "name": "Mangosteen",
@@ -309,25 +412,42 @@
             "side": "May cause diarrhea and interact with certain medications.",
             "images": [
                 "images\/mangosteen.jpg"
-            ]
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
-            "name": "Vitex negundo",
-            "descrip": "Lagundi (scientific name: Vitex negundo) is a shrub that grows in the Philippines. It is one of the ten herbal medicines endorsed by the Philippine Department of Health as an effective herbal medicine with proven therapeutic value. Commonly known in the Ilocos region as dangla, lagundi has been clinically tested to be effective in the treatment of colds, flu, fever, bronchial asthma, chronic bronchitis, and pharyngitis. Studies have shown that Lagundi can prevent the body&#039;s production of leukotrienes, which are released during an asthma attack. Lagundi contains Chrysoplenol D, a substance with anti-histamine and muscle relaxant properties. Even in Japan, lagundi is becoming recognized as an effective herbal medicine, especially since researches have shown that it contains properties that make it an expectorant and it has been reported to function as a tonic as well. More than that, most of the parts of the lagundi plant have medicinal value.",
-            "benefits": "Lagundi is known for its anti-inflammatory and analgesic properties. It is commonly used as a remedy for respiratory conditions such as asthma and cough.",
-            "side": "Lagundi is generally considered safe when used appropriately. However, some individuals may experience mild gastrointestinal upset or skin reactions. Pregnant and breastfeeding women are advised to consult a healthcare professional before using lagundi.",
+            "name": "Peace Lily",
+            "descrip": "Peace Lily is a popular indoor plant known for its air-purifying qualities.",
+            "benefits": "It helps improve indoor air quality by removing certain pollutants.",
+            "side": "Can be toxic if ingested, especially to pets. Skin irritation may occur in sensitive individuals.",
             "images": [
-                "images\/lagundi - Copy - Copy.jpg"
-            ]
+                "images\/Peace_Lily.jpg"
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
-            "name": "Coconut",
-            "descrip": "Coconuts were dubbed as such by the Spanish and Portuguese explorers. Apparently, the brown and hairy surface of mature Coconuts reminded them on one of their childhood fear, the Iberian Bogeyman of which they call \u201cEl Coco\u201d. According to them, El Coco is a hairy monster that hides under the bed of children and eats those who misbehave.\r\n\r\nMost of us might be familiar with this fruit and we might have different memories when we think about it. Some might recall a tropical vacation wherein they are sipping coconut water from a young coconut while sunbathing; and others would possibly envision their folks cooking their favorite dish using mature coconut as an ingredient. Some of you might even remember a song that was made famous by a teen singing group during the early 90\u2019s (I think it goes like \u201cit\u2019s the coco fruit, from the coco tree\u2026\u201d). I\u2019m sure that no Filipino would say that he\/she is not familiar with this fruit. The Coconut tree might not be the national tree of the Philippines and the Coconut fruit might not be the national fruit as well but it is visible in almost every location. In fact, the Philippines was the world\u2019s largest Coconut producer during the year 2007.",
-            "benefits": "The coconut tree is also referred to as \u201cThe Tree of Life\u201d. It is because all parts of this tree, from the roots to the leaves and fruits, can be used in many ways. Calling it The Tree of Life, is just fitting because of all the amazing health benefits of coconut. That is why, it is important to include this in your daily diet too.  Rich in healthy fats, promotes heart health, boosts immunity.",
-            "side": "May cause high cholesterol and interfere with thyroid function.",
+            "name": "Sampaguita ",
+            "descrip": "Sampaguita is a fragrant flowering plant, often used in traditional medicine and cultural practices.",
+            "benefits": "Used in aromatherapy for relaxation. Some traditional uses for skin conditions. ",
+            "side": "Generally safe, but skin irritation can occur in sensitive individuals.",
             "images": [
-                "images\/cc.jpg"
-            ]
+                "images\/Sampaguita.jpg"
+            ],
+            "clickCount": 2,
+            "commentCount": 0
+        },
+        {
+            "name": "Serpentina",
+            "descrip": "Serpentina is a common name for a plant scientifically known as \u201cRauvolfia serpentina.\u201d\r\n\r\n\r\nIt\u2019s native to the Indian subcontinent and Southeast Asia.\r\n\r\nTraditionally, it has been used in Ayurvedic medicine to treat various ailments like high blood pressure, anxiety, and certain mental disorders.\r\n\r\nThe plant contains alkaloids, with reserpine being the most well-known, which has been used as an antihypertensive drug in modern medicine.\r\n\r\nHowever, due to potential side effects, its usage in modern medicine has decreased over time.",
+            "benefits": " Traditionally used for its potential anti-inflammatory and immune-boosting properties, serpentina is also employed in addressing respiratory conditions.",
+            "side": "High doses may cause gastrointestinal upset. Pregnant and breastfeeding women should consult with a healthcare professional before incorporating serpentina into their wellness routine.",
+            "images": [
+                "images\/serpentina.jpg"
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
             "name": "Tamarind",
@@ -336,25 +456,64 @@
             "side": "May cause diarrhea and latex allergy in some individuals.",
             "images": [
                 "images\/sampaloc.jpg"
-            ]
+            ],
+            "clickCount": 2,
+            "commentCount": 0
         },
         {
-            "name": "Eggplant",
-            "descrip": "Eggplant, scientifically known as Solanum melongena, is a member of the nightshade family of plants. It is native to India and has been cultivated for thousands of years in Asia and the Middle East. The vegetable has an elongated shape with dark purple skin that can sometimes appear black or white. Some cultivars also appear in green and yellow.\r\nWhat makes eggplants unique is their spongy texture which makes them ideal for absorbing different flavors when cooked with spices and sauces. Additionally, they have low-calorie content making them a perfect ingredient for individuals who want to maintain a healthy diet.",
-            "benefits": "Offers Essential Nutrients, Aids Digestive Health, Regulates Blood Sugar, Strengthens Bone Health, Rich In Antioxidants, Promotes Skin Wellness, Supports Weight Loss, Has Antimicrobial Qualities, Lowers Cholesterol, and Decreases Anemia Risk",
-            "side": "Eggplants are low in calories but high in dietary fiber which can help with weight management and digestive health. It\u2019s also rich in antioxidants such as anthocyanins, which are beneficial for heart health by reducing inflammation and lowering blood pressure.    Eggplants contain vitamins B1 and B6 that contribute to brain function while minerals like copper aid in iron absorption. Additionally, regular consumption of eggplants may reduce your risk of developing type 2 diabetes due to their low glycemic index content.",
+            "name": "Hibiscus rosa-sinensis",
+            "descrip": "Chinese hibiscus, (Hibiscus rosa-sinensis), perennial species of hibiscus of the mallow family (Malvaceae), cultivated for its large brightly coloured flowers. Chinese hibiscus is the most common species of hibiscus and is grown as an ornamental hedge in tropical and subtropical regions worldwide. The origins of Chinese hibiscus are disputed; it is likely from Southeast Asia, though some authorities point to Vanuatu in Oceania or various other tropical regions. No wild populations of the plant have been found in modern times.\r\n\r\nChinese hibiscus is a shrub or small tree and grows to a height of 1.2\u20133 metres (4\u201310 feet) and a width of 1.5\u20132.4 metres (5\u20138 feet). Its simple evergreen leaves are usually unlobed and have serrated margins. Bright green in colour, they are some 5\u201312 cm (2\u20135 inches) long and 3\u20138.5 cm (1\u20133 inches) wide. The plants are usually propagated by stem cuttings.\r\n",
+            "benefits": "Used in traditional medicine for treating wounds, fevers, and respiratory problems.",
+            "side": "May cause nausea and vomiting in large amounts.",
             "images": [
-                "images\/talong.jpg"
-            ]
+                "images\/gumamela.jpg"
+            ],
+            "clickCount": 1,
+            "commentCount": 0
         },
         {
-            "name": "Calabash gourd",
-            "descrip": "Bottle gourd (Calabash) is the fruit of a vining plant known scientifically as Lagenaria siceraria, a member of the squash family. Among its various other names, bottle gourd is also known as calabash and white-flowered gourd (1).\r\n\r\nLike other members of the squash family, bottle gourd is used as a cooked vegetable for culinary purposes despite being a botanical fruit. It may also be used for the commercial production of bottle gourd juice.\r\n\r\nThe bottle gourd has a unique appearance with a pale green color and an hourglass shape, as shown in the above image.\r\n\r\nOnce cooked, the vegetable has a soft texture similar to a slightly firmer zucchini. These two vegetables also share some flavor characteristics, but bottle gourd tastes slightly sweeter.",
-            "benefits": "A Good Source of Vitamin C, Moderate Levels of the Minerals Potassium and Zinc, Low In Calories, Rich Source of Phytochemicals, and May Improve Blood Lipid (Cholesterol) Profiles",
-            "side": "It can become toxic with improper storage (bottle gourd poisoning)",
+            "name": "Nasturtium",
+            "descrip": "Nasturtium is a flowering plant with peppery-tasting leaves and flowers.",
+            "benefits": " Rich in vitamins and minerals, it may have antimicrobial properties.",
+            "side": "Generally safe when consumed in moderation. Allergic reactions are rare.",
             "images": [
-                "images\/upo.jpg"
-            ]
+                "images\/Nasturtium.jpg"
+            ],
+            "clickCount": 1,
+            "commentCount": 0
+        },
+        {
+            "name": "Orchid",
+            "descrip": "Orchids are diverse flowering plants with various species.",
+            "benefits": "While primarily appreciated for their beauty, some traditional medicines use certain orchid species for various purposes.",
+            "side": "Generally safe as ornamental plants. Limited information on medicinal uses; caution and expert guidance are advised.",
+            "images": [
+                "images\/Orchid.jpg"
+            ],
+            "clickCount": 1,
+            "commentCount": 0
+        },
+        {
+            "name": "Passionflower",
+            "descrip": "Passion flower (Passiflora incarnata) is a climbing vine with white and purple flowers. The chemicals in passion flower have calming effects.\r\n\r\nPassion flower is native to the southeastern United States and Central and South America. It&#039;s been traditionally used to help with sleep.\r\n\r\nPeople use passion flower for anxiety, including anxiety before surgery. Some people also take passion flower for insomnia, stress, ADHD, pain, and many other conditions. But there is no good scientific evidence to support these uses. In some foods and beverages, passion flower is added for flavoring.",
+            "benefits": "Reduces anxiety and stress, promotes relaxation and sleep",
+            "side": "May cause drowsiness and interact with certain medications.",
+            "images": [
+                "images\/Passionflower.jpg"
+            ],
+            "clickCount": 1,
+            "commentCount": 0
+        },
+        {
+            "name": "Peppermint",
+            "descrip": "Peppermint (Mentha piperita ) is an aromatic perennial plant that grows to a height of about 3 ft (1 m). It has light purple flowers and green leaves with serrated edges. Peppermint belongs to the Lamiaceae family and grows throughout North America, Asia, and Europe. There are more than 25 species of true mint grown throughout the world.\r\n\r\nThe plant is harvested when the oil content is highest. When ready for harvest, it is always collected in the morning, before noon sun reduces the leaf essential oil content. This generally takes place shortly before the plant blooms, which occurs in the summer (July through August) or during dry, sunny weather. The United States is responsible for producing 75% of the world&#039;s supply of peppermint.",
+            "benefits": "Relieves indigestion, soothes headaches, and has antimicrobial properties.",
+            "side": "May cause heartburn in some individuals. Avoid in individuals with acid reflux.",
+            "images": [
+                "images\/ppmint.jpg"
+            ],
+            "clickCount": 1,
+            "commentCount": 0
         }
     ]
 }

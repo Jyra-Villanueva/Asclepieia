@@ -69,6 +69,9 @@
             padding-top: 56px;
             transition: margin-left 0.3s;
         }
+        #title:hover{
+            background-color: #5C8374;
+        }
     </style>
 </head>
 
@@ -76,14 +79,14 @@
 
     <div class="sidebar">
         <img src="logo/asclepieia..png" alt="Logo">
-        <a class="navbar-brand" href="#">Plant Website</a>
+        <a id="title" class="navbar-brand" href="#">Plant Website</a>
         <a href="homepage.php" class="<?php echo (basename($_SERVER['SCRIPT_FILENAME']) == 'homepage.php') ? 'active' : ''; ?>">Home</a>
+        <a href="display_plants.php" class="<?php echo (basename($_SERVER['SCRIPT_FILENAME']) == 'display_plants.php') ? 'active' : ''; ?>">Plants</a>
         <a href="identify_insert.php" class="<?php echo (basename($_SERVER['SCRIPT_FILENAME']) == 'identify_insert.php') ? 'active' : ''; ?>">Plant Identification</a>
+        <a href="disease_index.php" class="<?php echo (basename($_SERVER['SCRIPT_FILENAME']) == 'disease_index.php') ? 'active' : ''; ?>">Diseases</a>
         <a href="create_blog.php" class="<?php echo (basename($_SERVER['SCRIPT_FILENAME']) == 'create_blog.php') ? 'active' : ''; ?>">Create Post</a>
         <a href="profile.php" class="<?php echo (basename($_SERVER['SCRIPT_FILENAME']) == 'profile.php') ? 'active' : ''; ?>">Profile</a>
     </div>
-
-    <!-- Rest of your content goes here -->
 
 </body>
 

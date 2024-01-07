@@ -4,7 +4,6 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed; 
-            color: #fff; 
         }
         body::before {
             content: "";

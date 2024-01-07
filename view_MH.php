@@ -100,17 +100,17 @@
     <div class="container">
         <?php
         if (isset($_GET['plant'])) {
-            $plantDataFile = 'plant_json.json';
+            $plantDataFile = 'recommend.json';
 
             if (file_exists($plantDataFile)) {
                 $jsonContent = file_get_contents($plantDataFile);
 
                 $herbData = json_decode($jsonContent, true);
 
-                if (is_array($herbData) && isset($herbData['herb'])) {
+                if (is_array($herbData) && isset($herbData['Medicinal herbs'])) {
                     $selectedPlant = null;
 
-                    foreach ($herbData['herb'] as &$plant) {
+                    foreach ($herbData['Medicinal herbs'] as &$plant) {
                         if ($plant['name'] === $_GET['plant']) {
                             $selectedPlant = $plant;
                             $plant['clickCount'] = isset($plant['clickCount']) ? $plant['clickCount'] + 1 : 1;
@@ -118,13 +118,15 @@
                         }
                     }
 
-                    usort($herbData['herb'], function ($a, $b) {
+
+                    usort($herbData['Medicinal herbs'], function ($a, $b) {
                         $clickCountA = isset($a['clickCount']) ? $a['clickCount'] : 0;
                         $clickCountB = isset($b['clickCount']) ? $b['clickCount'] : 0;
                         
                         return $clickCountB - $clickCountA;
                     });
                     
+
 
                     file_put_contents($plantDataFile, json_encode($herbData, JSON_PRETTY_PRINT));
 

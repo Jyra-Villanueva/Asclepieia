@@ -7,9 +7,6 @@ if (!isset($_SESSION["username"]) && !isset($_SESSION['password'])) {
     header("Location: login.php");
     exit();
 }
-
-include("bg.php");
-
 try {
     $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -39,13 +36,14 @@ if ($_SESSION['viewing_user_blogs']) {
 
 $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
-
-<?php include("bg.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>User Profile and Blogs</title>
     <style>
+        body{
+            padding: 100px;
+        }
         .card {
             opacity: 0.9; 
             padding: 15px;

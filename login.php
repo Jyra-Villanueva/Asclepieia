@@ -6,14 +6,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Check if the entered credentials match the admin user
     if ($username === 'admin' && $password === 'Admin@123') {
         $_SESSION['admin'] = true;
         header("Location: find_plants.php");
         exit();
     }
 
-    // Check if the entered credentials match a regular user
     $stmt = $conn->prepare("SELECT password FROM user WHERE username = ?");
     $stmt->bind_param('s', $username);
     $stmt->execute();
@@ -26,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         setcookie('user_id', $user_id, time() + 86400 * 30, '/');
         setcookie('auth_token', $auth_token, time() + 86400 * 30, '/');
 
-        header("Location: homepage.php");
+        header("Location: questionnaire.php");
         exit();
     } else {
         $errorMessage = "Invalid username or password";
@@ -44,7 +42,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #5C8374;
+            background-image: url('logo/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
             color: #5C8374;
             margin: 0; 
             padding: 0; 

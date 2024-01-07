@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: #f8f9fa;
-            background-image: url('your-bg-image.jpg'); 
+            background-image: url('logo/bg.jpg');
             background-size: cover;
-            background-position: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-            color: black; 
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            color: #5C8374;
+            margin: 0; 
+            padding: 0; 
         }
 
         .container {

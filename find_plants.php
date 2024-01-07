@@ -62,7 +62,6 @@
             margin-bottom: 20px;
         }
 
-        /* New styles for displaying top 10 most clicked plants */
         #topClickedContainer {
             overflow: hidden;
             position: relative;
@@ -100,7 +99,6 @@
             color: #007bff;
         }
 
-        /* Animation for the most clicked plants */
         @keyframes scrollAnimation {
             0% {
                 transform: translateX(0);
@@ -134,23 +132,43 @@
             if (file_exists($plantDataFile)) {
                 $jsonContent = file_get_contents($plantDataFile);
                 $herbData = json_decode($jsonContent, true);
+                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+                    $question7 = isset($_POST['question7']) ? $_POST['question7'] : '';
+
+                    if ($question7 === 'Medicinal herbs') {
+                        $medicinalHerbsData = $herbData['Medicinal herbs'] ?? [];
+
+                        $recommendedMedicinalHerbs = array_filter($medicinalHerbsData, function ($plant) {
+                            return isset($plant['recommended']) && $plant['recommended'] === true;
+                        });
+
+                        if (!empty($recommendedMedicinalHerbs)) {
+                            echo '<div class="alert alert-success" role="alert">';
+                            echo '<h4 class="alert-heading">Recommended Medicinal Herbs!</h4>';
+                            echo '<p>We recommend trying the following plants for their medicinal properties:</p>';
+                            echo '<ul>';
+                            foreach ($recommendedMedicinalHerbs as $plant) {
+                                echo '<li>' . $plant['name'] . '</li>';
+                            }
+                            echo '</ul>';
+                            echo '</div>';
+                        }
+                    }
+                }
 
                 if (is_array($herbData['herb'])) {
-                    // Filter plants with clickCount key
                     $plantsWithClickCount = array_filter($herbData['herb'], function ($plant) {
                         return isset($plant['clickCount']);
                     });
 
-                    // Sort plants by clickCount in descending order
                     usort($plantsWithClickCount, function ($a, $b) {
                         return $b['clickCount'] - $a['clickCount'];
                     });
 
                     if (!empty($plantsWithClickCount)) {
-                        // Get the top 10 most clicked plants
                         $topClickedPlants = array_slice($plantsWithClickCount, 0, 10);
 
-                        // Display the top 10 most clicked plants in a grid
                         echo '<div id="topClickedContainer" onmousedown="startDragging(event)" onmouseup="stopDragging()" onmouseleave="stopDragging()">';
                         echo '<h2>Most Viewed Plants</h2>';
                         echo '<div id="topClickedPlants" class="top-clicked-plants-container">';
@@ -166,21 +184,17 @@
                 }
             }
             if (!empty($herbData['herb'])) {
-                // Filter plants with commentCount key
                 $plantsWithCommentCount = array_filter($herbData['herb'], function ($plant) {
                     return isset($plant['commentCount']);
                 });
         
-                // Sort plants by commentCount in descending order
                 usort($plantsWithCommentCount, function ($a, $b) {
                     return $b['commentCount'] - $a['commentCount'];
                 });
         
                 if (!empty($plantsWithCommentCount)) {
-                    // Get the top 5 most commented plants
                     $topCommentedPlants = array_slice($plantsWithCommentCount, 0, 5);
         
-                    // Display the top 5 most commented plants in a horizontally scrollable grid
                     echo '<div id="topCommentedContainer" class="scrollable-container overflow-hidden">';
                     echo '<h2>Top 5 Most Commented Plants</h2>';
                     echo '<div id="topCommentedPlants" class="scrollable-content top-clicked-plants-container">';
@@ -195,6 +209,7 @@
                     echo '</div>';
                 }
             }
+            
         ?>
 <script>
     var isDragging = false;
@@ -208,7 +223,6 @@
         initialScrollX = topClickedPlants.scrollLeft;
         topClickedPlants.style.cursor = 'grabbing';
 
-        // Disable animation during dragging
         topClickedPlants.style.transition = 'none';
 
         document.addEventListener('mousemove', handleDragging);
@@ -219,19 +233,16 @@
         isDragging = false;
         topClickedPlants.style.cursor = 'grab';
 
-        // Re-enable animation after dragging
         topClickedPlants.style.transition = '';
 
         document.removeEventListener('mousemove', handleDragging);
         document.removeEventListener('mouseup', stopDragging);
     }
 
-    // Add event listener for drag and drop on the container
     topClickedContainer.addEventListener('mousedown', function (event) {
         startDragging(event);
     });
 
-    // Add a check for isDragging to prevent unwanted behavior on mouse move
     document.addEventListener('mousemove', function (event) {
         if (isDragging) {
             handleDragging(event);

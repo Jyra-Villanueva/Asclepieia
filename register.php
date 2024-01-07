@@ -12,7 +12,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $image = ''; 
     $gender = $_POST['gender'];
 
-    // Validate password and confirm_password match
     if (!password_verify($confirm_password, $password)) {
         echo "Passwords do not match!";
         exit();
@@ -22,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bind_param('ssssssss', $username, $password, $firstname, $lastname, $email, $birthday, $image, $gender);
 
     if ($stmt->execute()) {
-        header("Location: login.php"); //palitan
+        header("Location: login.php"); 
         exit();
     } else {
         echo "Registration failed!";
@@ -57,14 +56,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <style>
         body {
-            background-color: #225533; /* Dark green background */
+            background-image: url('logo/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            color: #5C8374;
+            margin: 0;  
             color: white;
             padding: 20px;
             font-family: 'Montserrat', sans-serif;
         }
 
         .container {
-            max-width: 600px; /* Adjust the width as needed */
+            max-width: 600px; 
             margin: auto;
             background-color: #90A495;
             padding: 20px;
@@ -86,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             width: 100%;
             height: 40px;
             padding: 10px;
-            border: 1px solid #225533; /* Dark green border */
+            border: 1px solid #225533; 
             border-radius: 5px;
         }
 
@@ -95,13 +99,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             padding: 10px;
             border: none;
             border-radius: 5px;
-            background-color: #90A495; /* Light green button */
-            color: #225533; /* Dark green text */
+            background-color: #90A495;
+            color: #225533; 
             cursor: pointer;
         }
 
         button:hover {
-            background-color: #679583; /* Darker green on hover */
+            background-color: #679583; 
         }
 
         .error-message {
@@ -122,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         .progress-bar {
             width: 100%;
             height: 20px;
-            background-color: #225533; /* Dark green progress bar */
+            background-color: #225533; 
             border-radius: 5px;
             margin-bottom: 20px;
         }
@@ -130,14 +134,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         .progress-step {
             width: 33.33%;
             height: 100%;
-            background-color: #679583; /* Lighter green step indicator */
+            background-color: #679583; 
             border-radius: 5px;
         }
     </style>
-  
-
-
-
 
 </head>
 <body>

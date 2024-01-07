@@ -70,7 +70,7 @@
             document.getElementById('searchPlant').addEventListener('input', handleInput);
 
             document.getElementById('searchButton').addEventListener('click', function (event) {
-                event.preventDefault(); // Prevent form submission
+                event.preventDefault(); 
 
                 handleInput();
             });

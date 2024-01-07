@@ -1,0 +1,205 @@
+[
+    {
+        "name": "Paronychia",
+        "image": "paronychia.jpg",
+        "description": "Paronychia, Caused by an infection of the tissues around the nail with bacteria (often Staphylococcus aureus or Streptococcus). Develops in 2 to 5 days due to a small unnoticed wound.",
+        "remedies": [
+            "Put your finger in the hole of a heated lemon.",
+            "Put your finger in car brake oil.",
+            "Put your finger in pure bleach.",
+            "Crush the skin of the plantain and some peppers, let cool, and apply on the affected area. Replace regularly."
+        ]
+    },
+    {
+        "name": "Sipon",
+        "image": "sipon.jpg",
+        "description": "Sipon, Common cold characterized by a runny or stuffy nose, sneezing, and sometimes a sore throat.",
+        "remedies": [
+            "Drink ginger tea with honey.",
+            "Inhale steam with eucalyptus oil.",
+            "Consume hot chicken soup."
+        ]
+    },
+    {
+        "name": "Headache",
+        "image": "headache.jpg",
+        "description": "Pain in the head or upper neck. Can be caused by various factors including tension, dehydration, or lack of sleep.",
+        "remedies": [
+            "Apply a cold or warm compress to the forehead.",
+            "Drink peppermint tea.",
+            "Practice deep breathing exercises."
+        ]
+    },
+    {
+        "name": "Stomach Flu",
+        "image": "Stomach_flu.jpg",
+        "description": "Stomach Flu, Intestinal infection marked by diarrhea, abdominal cramps, nausea, or vomiting. Often caused by viruses.",
+        "remedies": [
+            "Stay hydrated with electrolyte-rich fluids.",
+            "Consume ginger tea.",
+            "Eat bland foods like rice and bananas."
+        ]
+    },
+    {
+        "name": "Insomnia",
+        "image": "insomnia.jpg",
+        "description": "Insomnia is a Difficulty falling asleep or staying asleep. Can be caused by stress, anxiety, or other factors.",
+        "remedies": [
+            "Create a bedtime routine.",
+            "Drink chamomile tea.",
+            "Avoid caffeine and electronics before bedtime."
+        ]
+    },
+    {
+        "name": "Skin Irritation",
+        "image": "skin_irritation.jpg",
+        "description": "Redness or inflammation of the skin. Can be caused by allergies, insect bites, or contact with irritants.",
+        "remedies": [
+            "Apply aloe vera gel to the affected area.",
+            "Make a lavender-infused oil and apply to the skin.",
+            "Use a malunggay-based ointment or cream."
+        ]
+    },
+    {
+        "name": "Respiratory Allergies",
+        "image": "respiratory_allergies.jpg",
+        "description": "Respiratory Allergies, Immune system response to airborne allergens. Symptoms may include sneezing, coughing, and difficulty breathing.",
+        "remedies": [
+            "Inhale steam infused with sampaguita flowers.",
+            "Drink lavender tea to soothe respiratory symptoms.",
+            "Include malunggay in your diet for its anti-allergic properties."
+        ]
+    },
+    {
+        "name": "Cough",
+        "image": "cough.jpg",
+        "description": "Cough , Reflex action to clear the throat and airways of mucus, typically caused by irritation.",
+        "remedies": [
+            "Drink honey and lemon tea.",
+            "Consume thyme tea.",
+            "Gargle with salt water."
+        ]
+    },
+    {
+        "name": "Allergies",
+        "image": "allergies.jpg",
+        "description": "Immune system response to substances that are usually harmless, resulting in symptoms like sneezing, itching, and congestion.",
+        "remedies": [
+            "Drink nettle tea.",
+            "Use butterbur supplements (consult a doctor).",
+            "Consume local honey."
+        ]
+    },
+    {
+        "name": "Migraine",
+        "image": "migraine.jpg",
+        "description": "Severe headache often accompanied by nausea, vomiting, and sensitivity to light and sound.",
+        "remedies": [
+            "Apply peppermint oil to the temples.",
+            "Drink chamomile tea.",
+            "Practice relaxation techniques."
+        ]
+    },
+    {
+        "name": "Joint Pain",
+        "image": "joint_pain.jpg",
+        "description": "Pain and discomfort in the joints, often caused by inflammation or arthritis.",
+        "remedies": [
+            "Apply aloe vera gel to the affected joints.",
+            "Turmeric supplements or tea.",
+            "Gentle exercise and stretching."
+        ]
+    },
+    {
+        "name": "Hives",
+        "image": "hives.jpg",
+        "description": "Raised, itchy welts on the skin, usually caused by an allergic reaction.",
+        "remedies": [
+            "Apply calamine lotion.",
+            "Take an oatmeal bath.",
+            "Use cold compresses on affected areas."
+        ]
+    },
+    {
+        "name": "Indigestion",
+        "image": "indigestion.jpg",
+        "description": "Discomfort or pain in the upper abdomen, often associated with overeating or consuming certain foods.",
+        "remedies": [
+            "Chew on basil leaves.",
+            "Drink ginger tea.",
+            "Consume fennel seeds after meals."
+        ]
+    },
+    {
+        "name": "Anxiety",
+        "image": "anxiety.jpg",
+        "description": "Excessive worry, fear, or uneasiness, often accompanied by physical symptoms.",
+        "remedies": [
+            "Drink lavender tea.",
+            "Practice deep breathing exercises.",
+            "Consider passionflower supplements (consult a doctor)."
+        ]
+    },
+    {
+        "name": "Burns",
+        "image": "burns.jpg",
+        "description": "Damage to the skin caused by heat, chemicals, electricity, or sunlight.",
+        "remedies": [
+            "Apply aloe vera gel to the burn.",
+            "Use lavender oil for soothing effects.",
+            "Run cool water over the affected area."
+        ]
+    },
+    {
+        "name": "Plema",
+        "image": "plema.jpg",
+        "description": "Excessive mucus or phlegm in the respiratory system, often associated with respiratory infections or allergies.",
+        "remedies": [
+            "Inhale steam infused with lagundi leaves.",
+            "Drink coconut water to help hydrate and loosen mucus.",
+            "Consume aloe vera juice for its soothing properties."
+        ]
+    },
+
+    {
+        "name": "Dandruff",
+        "image": "dandruff.jpg",
+        "description": "Flaky and itchy scalp condition, often caused by dry skin or an overgrowth of yeast.",
+        "remedies": [
+            "Apply aloe vera gel to the scalp to moisturize and soothe irritation.",
+            "Rinse hair with a solution of basil-infused water to combat dandruff.",
+            "Massage coconut oil into the scalp for hydration and anti-fungal properties."
+        ]
+    },
+    {
+        "name": "Eczema",
+        "image": "eczema.jpg",
+        "description": "Skin condition characterized by red, itchy, and inflamed patches.",
+        "remedies": [
+            "Apply coconut oil to the affected areas to moisturize and reduce inflammation.",
+            "Use calendula-infused cream for its soothing and anti-inflammatory effects.",
+            "Take a bath with oatmeal to relieve itching associated with eczema."
+        ]
+    },
+    {
+        "name": "Earache",
+        "image": "Earache.jpg",
+        "description": "Eczema, Pain or discomfort in the ear, often caused by infection or inflammation.",
+        "remedies": [
+            "Warm coconut oil and gently apply a few drops to the affected ear for relief.",
+            "Infuse olive oil with garlic and use it as ear drops for its antimicrobial properties.",
+            "Drink chamomile tea to help reduce inflammation and soothe earache."
+        ]
+    },
+    {
+        "name": "Nausea",
+        "image": "nausea.jpg",
+        "description": "Feeling of queasiness or discomfort in the stomach, often preceding vomiting.",
+        "remedies": [
+            "Chew on ginger root or drink ginger tea to alleviate nausea.",
+            "Sip on peppermint tea for its calming effect on the digestive system.",
+            "Consume basil leaves or tea to relieve nausea and improve digestion."
+        ]
+    }
+
+]

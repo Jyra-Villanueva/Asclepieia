@@ -68,7 +68,7 @@
 
         .sidebar a.active {
             background-color: #435d56;
-            color: #fff; /* Change font color for active link */
+            color: #fff; 
         }
 
         body {
