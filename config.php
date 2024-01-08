@@ -2,7 +2,7 @@
 $servername = "127.0.0.1";
 $username = "root";
 $password = "";
-$dbname = "trnsaction";
+$dbname = "trnsaction-1";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

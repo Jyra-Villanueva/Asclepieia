@@ -54,5 +54,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit();
 }
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['blogID']) && isset($_POST['comment'])) {
+    $blogID = $_POST['blogID'];
+    $commentText = $_POST['comment'];
+    $timestamp = time(); // Current timestamp
 
+    // Insert comment with timestamp into the 'comment' table
+    $stmt = $pdo->prepare("INSERT INTO comment (blogID, comment, timestamp) VALUES (?, ?, ?)");
+    $stmt->execute([$blogID, $commentText, $timestamp]);
+    
+    // Redirect to the blog page after commenting
+    header("Location: view_blog.php?blogID=$blogID");
+    exit();
+} else {
+    // Handle invalid requests or display an error message
+    echo "Invalid request.";
+    exit();
+}
 ?>

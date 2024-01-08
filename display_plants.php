@@ -1,3 +1,5 @@
+//display_plats.php
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +51,9 @@
         h5 {
             color: #007bff;
         }
-
+        h2 {
+            color: #ffffff;
+        }
         p {
             color: #212529;
         }
@@ -65,28 +69,27 @@
     <?php include("bg.php"); ?>
 
     <div class="container mt-3">
-        <h2 id='text'>Plants Information</h2>
+        <h2>Plants Information</h2>
 
-        <div class="row">
+        <div class="grid-container">
             <?php
+            // Load JSON data from the file
             $jsonData = file_get_contents('plant_json.json');
             $data = json_decode($jsonData, true);
 
+            // Check if the 'herb' key exists in the JSON data
             if (isset($data['herb'])) {
                 $plants = is_array($data['herb']) ? $data['herb'] : array_values($data['herb']);
 
-                // Sort plants alphabetically by name
-                usort($plants, function($a, $b) {
-                    return strcmp($a['name'], $b['name']);
-                });
-
+                // Loop through each plant
                 foreach ($plants as $index => $plant) {
+                    // Check if essential keys exist in the plant data
                     if (isset($plant['name'], $plant['descrip'])) {
-                        echo '<div class="col-md-6">';
+                        // Display plant details
                         echo '<a href="plant_details.php?id=' . $index . '" style="text-decoration: none; color: inherit;">';
                         echo '<div class="card plant-card">';
-                        echo '<div class="plant-card-inner">';
-
+                        
+                        // Display plant image if available
                         if (isset($plant['images']) && is_array($plant['images']) && !empty($plant['images'][0])) {
                             echo '<img src="' . $plant['images'][0] . '" class="card-img-top" alt="' . $plant['name'] . '">';
                         }
@@ -96,25 +99,22 @@
                         echo '<p class="card-text"><strong>Description:</strong> ' . $plant['descrip'] . '</p>';
                         echo '</div>';
                         echo '</div>';
-                        echo '</div>';
                         echo '</a>';
-                        echo '</div>';
                     } else {
-                        echo '<div class="col-md-6">';
+                        // Handle missing keys
                         echo '<div class="alert alert-danger mt-3" role="alert">';
                         echo 'Invalid plant data. Essential keys are missing.';
-                        echo '</div>';
                         echo '</div>';
                     }
                 }
             } else {
-                echo '<div class="col-md-6">';
                 echo '<div class="alert alert-danger mt-3" role="alert">';
                 echo 'Invalid JSON data. The "herb" key is missing.';
                 echo '</div>';
-                echo '</div>';
             }
             ?>
+
+            
         </div>
 
     </div>

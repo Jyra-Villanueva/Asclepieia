@@ -65,6 +65,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="card-body" style="color: black;">
         <h2>User Profile:</h2>
         <?php if ($userInfo): ?>
+            <p><b>Username: </b><?php echo $username; ?></p>
             <p><b>First Name: </b><?php echo $userInfo['firstname']; ?></p>
             <p><b>Last Name: </b><?php echo $userInfo['lastname']; ?></p>
             <p><b>Email: </b><?php echo $userInfo['email']; ?></p>
