@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,21 +49,56 @@
         a:hover {
             text-decoration: none;
             color: #ffffff;
-            
         }
         p:hover{
             color: #ffffff;
             text-decoration: none;
         }
+
+        #search-bar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            background-color:#ffffff ;
+            color: #000000;
+        }
     </style>
+
+    <script>
+        function filterDiseases() {
+            var input, filter, ul, li, p, i, txtValue;
+            input = document.getElementById('search-bar');
+            filter = input.value.toUpperCase();
+            ul = document.getElementsByClassName('list-container')[0];
+            li = ul.getElementsByClassName('list-item');
+
+            for (i = 0; i < li.length; i++) {
+                p = li[i].getElementsByTagName('p')[0];
+                txtValue = p.textContent || p.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = '';
+                } else {
+                    li[i].style.display = 'none';
+                }
+            }
+        }
+    </script>
+
     <?php include("navbar.php"); ?>
     <title>Herbal Plant Website</title>
 </head>
 <body>
-    <h1 id='Welcome' >Welcome to Herbal Plant Website</h1>
+    <h1 id='Welcome'>Welcome to Herbal Plant Website</h1>
+
+    <!-- Add the search bar -->
+    <input type="text" id="search-bar" onkeyup="filterDiseases()" placeholder="Search for diseases">
 
     <ul class="list-container">
         <?php
+            // Your existing PHP code
             $jsonData = file_get_contents('disease.json');
             $diseases = json_decode($jsonData, true);
 

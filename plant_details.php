@@ -100,6 +100,7 @@
     <i class="fas fa-arrow-left"></i>
     </a>
     <div class="container mt-3">
+        
         <?php
         if (isset($_GET['id'])) {
             $id = $_GET['id'];

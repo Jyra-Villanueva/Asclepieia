@@ -279,7 +279,7 @@ unset($comment);
                     <img src="data:image/jpeg;base64,<?php echo base64_encode(file_get_contents($blog['blog_pic'])); ?>" alt="Blog Image" class="img-fluid rounded">
                 <?php endif; ?>
                 <br>
-                 <p><b>Filed Under: </b> <?php echo $blog['blog_cat']; ?> <b>Date: </b> <?php echo $timeAgoString; ?></p>
+                 <p><b>Plant: </b> <?php echo $blog['blog_cat']; ?> <br><b>Date: </b> <?php echo $timeAgoString; ?></p>
                 <p><b>Content: </b><?php echo $blog['blog_content']; ?></p>
                 <?php if ($blogEntry['rating'] > 0): ?>
                     <div class="rating">

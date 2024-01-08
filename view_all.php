@@ -88,6 +88,60 @@
             background-color: #435d56;
             color: #fff;
         }
+
+        .comment-section {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.comment-form input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.comment-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-item:last-child {
+    border-bottom: none;
+}
+
+.comment-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.comment-timestamp {
+    font-size: 12px;
+    color: #777;
+}
     </style>
 </head>
 
@@ -98,6 +152,7 @@
     <i class="fas fa-arrow-left"></i>
     </a>
     <div class="container">
+        
         <?php
         if (isset($_GET['plant'])) {
             $plantDataFile = 'plant_json.json';
@@ -177,6 +232,26 @@
             echo "<p>Plant not specified.</p>";
         }
         ?>
+        <br>
+        <br>
+        <h3>Comments:</h3>
+        <?php
+        if (isset($selectedPlant['comments']) && is_array($selectedPlant['comments']) && count($selectedPlant['comments']) > 0) {
+            echo "<ul>";
+            foreach ($selectedPlant['comments'] as $comment) {
+                echo "<li>{$comment['text']} - {$comment['timestamp']}</li>";
+            }
+            echo "</ul>";
+        } else {
+            echo "<p>No comments yet.</p>";
+        }
+        ?>
+            <h3>Comments:</h3>
+    <form method="post" action="process_comment.php">
+        <input type="hidden" name="plant_name" value="<?php echo htmlspecialchars($_GET['plant']); ?>">
+        <textarea name="comment" placeholder="Add your comment..." rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit Comment">
+    </form>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
